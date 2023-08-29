@@ -1,0 +1,53 @@
+Structure of HTML:
+<!DOCTYPE html> -> specifies Version of HTML (4.01)
+<html>
+    <head> -> information about webpage
+        <meta> -> additional information about the webpage ex author, etc
+        <title> -> gives title of the webpage
+    </head>
+    <body> -> content of webpage
+    </body>
+</html>
+
+Tags:
+h1,h2,h3,h4,h5,h6 -> headings
+b -> bold
+i -> italic
+u -> underline
+sub -> subscript
+sup -> superscript
+big -> increase font size by 1
+small -> decrease font size by 1
+code -> change font face 
+del - strikethrough text
+cite -> non blocking tag with itaic styling [non blocking -> will not go to new line]
+address -> blocking tag with italic styling [blocking -> will go to new line]
+abbr -> abbreviation tag [non-blocking tag]
+Void element / empty tags / self closing tags 
+br -> break the line
+hr -> generate horizontal rule 
+ol -> numbered list 
+    [type = 1 (default) | A | a | I | i]
+    [start = integer values]
+ul -> unordered list
+    [type = disc (default) | circle | square]
+dl - definition list
+dt -> definition term
+dd -> data definition
+li -> list element
+a -> anchor tag [navigate from one page to another]
+    [href=url target = _blank (new tab) | _self (same frame)]
+    1. hyperlink
+    2. image link: img [src=imagepath alt=alternatetext height= width=] (self closing tag)
+    3. bookmark link (hw)
+    4. email link (hw)
+table -> create table
+    [border = 0 | 1 bordercolor="" bgcolor="" height="" width="" cellpadding="" (space between border of cell and content of cell) cellspacing="" (spacing between two cells)]
+    caption -> table title
+    tr, td, th
+
+Tricks:
+! + ENTER -> Structure of HTML
+Ctrl + / -> comments
+To save file automatically -> in VSCode, File-> Auto Save Option
+To modify both tags, press F2
