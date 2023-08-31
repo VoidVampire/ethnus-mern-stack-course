@@ -1,0 +1,40 @@
+Ways to style HTML File:
+1. inline styling [using style attribute in opening tag]
+2. internal styling [using style tag inside head tag]
+3. external styling [using link tag inside head tag / separate css file]
+
+Syntax for styling:
+selectors{
+    property: value;
+}
+
+Types of selectors:
+1. element selector [tagName]
+2. id selector [#idName] #should be unique
+3. class selector [.className]
+4. group selector [tagName, tagName]
+5. universal selector [*]
+
+priority of selectors: inline > id > class > element/group > universal
+priority depends on what is closest to the tag:
+1. here inline > internal > external
+
+<link href="">
+<style>
+</style>
+
+external (link)
+internal
+inline
+
+or
+
+2. here inline > external > internal
+
+<style>
+</style>
+<link href="">
+
+internal
+external
+inline

@@ -1,0 +1,35 @@
+HTML Tags:
+
+form-> 
+    1. label
+    2. input (single line input) [type = ""]
+        1. text
+        2. numbers
+        3. passwords
+        4. tel - phone no
+        5. url
+        6. email
+        7. search
+        8. checkbox
+        9. radio [name attribute is must, should be same for same form to avoid multiple seletion]
+        10. button
+        11. submit
+        12. reset
+        13. file
+        14. range
+        15. color
+        16. date / week / month / time/ datetime-locale
+    3. textarea (multi line input) [ rows="" | cols ="" maxlength=""]
+    4. select & option (for dropdown)
+
+semantic tag -> meaning to user and browser 
+    -> header, nav, main, aside, section, article, footer
+Layout of page:
+header
+nav
+main content (aside and section)
+footer
+
+non semantic tag -> not understandable to user but understadable to browser
+    -> div [blocking]
+    -> span [non blocking]
