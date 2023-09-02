@@ -1,0 +1,43 @@
+h1{
+    color:#00f;
+    text-align: center;
+}
+
+#i1{
+    text-decoration-line: line-through;
+    text-decoration-style: dashed;
+    text-decoration-color: aquamarine;
+}
+
+#iw{
+    text-decoration: line-through 6px slateblue;
+}
+.v1{
+    text-indent: 50px;
+    letter-spacing: 30px;
+    word-spacing: 60px;
+    text-transform: uppercase;
+    white-space: pre;  /* it adds leading white spaces*/
+}
+
+p{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+
+body{
+    background-image: url("../MKD1At6.jpeg");
+    background-repeat: no-repeat;
+    background-color: bisque;
+    background-attachment: scroll;
+    background-position: top right;
+    background-size: 800px;
+}
+
+.v2{
+    border: firebrick 3px solid;
+}
+
