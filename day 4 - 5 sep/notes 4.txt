@@ -1,0 +1,9 @@
+Box model (margin top | border top | padding top | content)
+21. border-width, border-color, border
+22. margin-left, margin-right, margin-top, margin-bottom
+23. margin [t r b l], margin[t r&l b], margin[t&b r&l], margin[t&b&r&l]
+24. padding-left, padding-right, padding-top, padding-bottom
+25. padding [t r b l], padding[t r&l b], padding[t&b r&l], padding[t&b&r&l]
+26. position [tatic | relative | absolute | fixed | sticky]
+    1. static
+    2. relative: 4 more properties [left right top bottom]

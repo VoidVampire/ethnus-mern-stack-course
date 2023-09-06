@@ -1,0 +1,23 @@
+div{
+    height: 200px;
+    width: 200px;
+}
+
+.d1{
+    position: static;
+    top: 30px; /* no use since static */
+    left: 50px; /* no use since static */
+    background-color: aquamarine;
+}
+
+.d2{
+    position: relative;
+    top: 50px;
+    left: 60px;
+    background-color: cadetblue;
+}
+
+.d3{
+    position: absolute;
+    background-color: cadetblue;
+}
