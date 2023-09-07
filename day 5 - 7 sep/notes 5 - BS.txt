@@ -1,0 +1,32 @@
+Bootstrap -> CSS Framework
+    -> responsive website
+    -> mobile first 
+
+Ways to use bootstrap [bootstrap.css]
+1. Internet 
+    CDN -> Content Delivery Network
+2. Local
+    Downloading / npm
+
+https://getbootstrap.com/docs/5.0/getting-started/download/
+
+Class name:
+1. primary -> blue
+2. secondaty -> gray
+3. sucess -> green
+4. warning -> yellow
+5. danger -> red
+6. dark -> black
+7. info -> skyblue
+8. light -> white
+
+9. bg -> background (bg-dark, bg-primary)
+10. text (--same--)
+11. text-[center | start | end]
+
+12. container -> provide left an right margin
+13. container-fluid (100%)
+14. container-[breakpoints] (xs, sm, md, xl, xxl)
+
+15. row -> each row has 12 cols
+20. col
