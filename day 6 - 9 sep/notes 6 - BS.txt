@@ -1,0 +1,22 @@
+BS Classes:
+
+21. h1-h6
+22. display-1 - display-6
+23. lead
+24. mark
+25. text-decoration
+
+26. blockquote
+
+27. rounded -> make rounded border
+28. img-thumbnail -> 
+29. img-fluid -> make responsive
+
+30. table, table-bordered, table-borderless, table-striped, table-hover, table-sm, table-[color]
+
+31. form, form-label, form-contro, form-check-input, form-select, input-group
+32. bth, btn-[color]
+
+33. margin 
+
+34. navbar, nav, 

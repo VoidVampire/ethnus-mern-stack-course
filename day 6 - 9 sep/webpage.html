@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Void Support</title>
+    <link href="/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <style>
+        label{
+            padding: 12px 0px 10px 40px;
+        }
+        input{
+            padding-right: 14px;
+        }
+        nav{
+            position: sticky;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar bg-dark">
+        <a href="navbar-brand"><img class="mx-3" src="code.png" alt="logo" width="100px"></a>
+
+        <div class="nav">
+            <a href="#" class="nav-link">Hom</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Contact</a>
+            <a href="#" class="nav-link">Resource</a>
+        </div>
+    </nav>
+    <main>
+    <h1 class="text-center">Suppot Req Form</h1>
+    <p class="text-center">Hello, we look forward to resolving your query. <br />
+        Please fill out the form below and we will get in touch with you as soon as possible.</p>
+
+    <form class="form bg-warning mx-auto" style="margin:auto; max-width: 50%; border-radius: 40px;">
+        <table class="table table-bordered table-striped table-dark">
+            <tr>
+                <td><label class="form-label me-5">Full Name</label></td>
+                <td><input class="form-control rounded" type="text" required></td>
+            </tr>
+            <tr>
+                <td><label class="form-label me-5">Pass</label></td>
+                <td><input class="form-control rounded" type="pass" required></td>
+            </tr>
+            <tr>
+                <td><label class="form-label me-5">Phone</label></td>
+                <td><input class="form-control rounded" type="tel" required></td>
+            </tr>
+            <tr>
+                <td><label class="form-label me-5">Query related to</label></td>
+                <td><select class="form-select"><option>Admission</option><option>Placement</option><option>Others</option> </select></td>
+            </tr>
+            <tr>
+                <td><label class="form-label me-5">Upload</label></td>
+                <td><input class="form-control rounded" type="file" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="text-center"><button class="btn btn-primary" type="submit">Submit</button></td>
+            </tr>
+        </table>
+    </form>
+    </main>
+    <footer class="bg-info">
+        <div class="row">
+            <div class="col-12 col-lg-3">Quick</div>
+            <div class="col-12 col-lg-3">Stats</div>
+            <div class="col-12 col-lg-3">Merge</div>
+            <div class="col-12 col-lg-3">Sort</div>
+        </div>
+        <p>&copy;Copyrighted by Void</p>
+    </footer>
+</body>
+</html>
