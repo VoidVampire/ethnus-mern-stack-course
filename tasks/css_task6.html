@@ -1,92 +1,90 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 6</title>
     <style>
       body {
-        font-family: Arial, Helvetica, sans-serif;
+          font-family: Arial, Helvetica, sans-serif;
+          padding: 5% 25%;
+      }
+      .profileimg {
+          text-align: center;
+      }
+      img.ppic {
+          width: 38%;
+          border-radius: 50%;
       }
 
-      input[type=text],
-      input[type=password] {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        box-sizing: border-box;
+      input#f1 {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
       }
-
-      button {
-        background-color: #04AA6D;
-        color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
-        border: none;
-        cursor: pointer;
-        width: 100%;
+      label#l1{
+          font-weight: bold;
       }
-
-      .cancelbtn {
-        width: auto;
-        padding: 10px 18px;
-        background-color: #f44336;
+      input#btn1 {
+          font-weight: 600;
+          background-color: #08ba58;
+          color: white;
+          padding: 10px;
+          border: none;
+          width: 100%;
       }
-
-      .imgcontainer {
-        text-align: center;
-        margin: 24px 0 12px 0;
-        position: relative;
+      input#btn2 {
+          font-weight: 600;
+          color: white;
+          width: auto;
+          padding: 10px 18px;
+          background-color: #f44336;
+          border: none;
+          border-radius: 5px;
       }
-
-      img.avatar {
-        width: 150px;
-        border-radius: 50%;
+      input#btn1:hover, input#btn2:hover {
+          background-color: black;
+          color: white;
       }
-
-      .container {
-        padding: 16px;
+      .btm {
+          padding: 16px;
       }
-
-      span.psw {
-        float: right;
-        padding-top: 16px;
+      #nbtm {
+          padding: 16px;
+          border-top: 1px solid rgb(168, 168, 168);
       }
-
-      .close {
-        position: absolute;
-        right: 25px;
-        top: 0;
-        color: #000;
-        font-size: 35px;
-        font-weight: bold;
+      a.frgt{
+          color: black;
+      }
+      span.frgt {
+          float: right;
+          padding-top: 10px;
       }
     </style>
-  </head>
-  <body>
-    <div id="id01" class="modal">
-      <div class="imgcontainer">
-        <img src="img_avatar.png" alt="Avatar" class="avatar">
-      </div>
-      <div class="container">
-        <label for="uname">
-          <b>Username</b>
-        </label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
-        <label for="psw">
-          <b>Password</b>
-        </label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-        <button type="submit">Login</button>
-        <label>
-          <input type="checkbox" checked="checked" name="remember"> Remember me </label>
-      </div>
-      <div class="container" style="background-color:#f1f1f1">
-        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-        <span class="psw">Forgot <a href="#">password?</a>
-        </span>
-      </div>
-    </div>
-    </script>
-  </body>
+</head>
+<body>
+    <form>
+        <div class="profileimg">
+            <img class="ppic" src="https://i.pinimg.com/564x/55/22/15/5522155776f935b968ee033b378c7dce.jpg">
+        </div>
+      
+        <div class="btm">
+            <label id="l1" for="usr">Username</label>
+            <input id="f1" type="text" name="usr" placeholder="Enter Username">
+            <p></p>
+            <label id="l1" for="pwd">Password</label>
+            <input id="f1" type="password" name="pwd" placeholder="Enter Password">
+            <p></p>
+            <input id="btn1" type="submit" value="Login"/>
+            <p></p>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </div>
+      
+        <div class="btm" id="nbtm">
+            <input id="btn2" type="submit" value="Cancel"/>
+            <span class="frgt">Forgot <a class="frgt" href="#">password?</a></span>
+        </div>
+    </form>
+</body>
 </html>
