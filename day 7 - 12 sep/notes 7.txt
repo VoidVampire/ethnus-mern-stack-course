@@ -1,0 +1,25 @@
+Ways to output:
+
+alert(" ");
+document.write(" ");
+document.getElementById("demo").innerHTML = " "
+console.log(" ")
+
+Comments:
+1. single line // 
+2. multi line /**/
+
+Variables:
+1. var -> global scope -> all types
+2. let -> local scope
+3. const
+
+Data types:
+1. string -> icludes character -> '' "" ``
+2. boolean
+3. undefined
+4. numbers 
+5. null
+
+Functions:
+
